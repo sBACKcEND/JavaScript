@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Final</title>
+</head>
+
+<body>
+    <a name="top"></a>
+
+    <div class="container">
+
+        <header>
+            <a href="javascript:void(0);" class="hamburger" onclick="hamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <nav class="menu" id="links">
+                <a class="link" href="#top">To the top</a>
+                <a class="link" href="#control_panel">Control Panel</a>
+                <a class="link" href="#colors">Colors</a>
+                <a class="link" href="#data">Data</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <section class="task">
+                <h1 class="title">Task</h1>
+                <ol>
+                    <li>Paspaudus ant mygtuko, puslapyje esantis div atsiranda/pranyksta</li>
+                    <li>Turit vieną div, su aukščiu,pločiu ir spalva bei 4 mygtukus, su kuriais galit valdyt sukurto div
+                        savybes: plotis, aukstis, centravimas ir pozicija</li>
+                    <li>Burgeris ir šoninis Meniu - paspaudus ant burgerio gražiai išvažiuoja šoninis meniu.</li>
+                    <li>Bent 4 div elementai, pradžioje visi juodos spalvos, paspaudus bent ant vieno iš jų, yra
+                        pakeičiamos spalvos visiems. Spalvos generuojamos random.</li>
+                    <li>Formoje pildoma "vardas", "pavardė" ir "gimimo data". Duomneys kaupiami lentelėje. Stulpeliai:
+                        Eil. Nr., Vardas, Pavardė, Amžius.</li><br>
+                    Visos užduotys turi būti stilizuotos, kad nebūtų sumaišytos. Kiekviena turi turėti savo section,
+                    headingus ir pan.
+                </ol>
+            </section>
+
+            <a name="control_panel"></a>
+            <section class="control_panel">
+                <h1 class="title">Control Panel</h1>
+                <div class="control_panel_div">
+                    <div class="inputs">
+                        <input type="submit" value="On/Off" onclick="openCloseDiv()"><br>
+                        <input type="submit" value="Height" onclick="changeHeight()"><br>
+                        <input type="submit" value="Width" onclick="changeWidth()"><br>
+                        <input type="submit" value="Center" onclick="moveToCenter()"><br>
+                        <input type="submit" value="Position" onclick="changePosition()">
+                    </div>
+                    <div class="control_div" id="controlDiv"></div>
+                </div>
+            </section>
+
+            <a name="colors"></a>
+            <section class="colors">
+                <h1 class="title">Colors</h1>
+                <div class="block">
+                    <div onclick="recolor(even)"></div>
+                    <div class="square" onclick="recolor(event)"></div>
+                    <div class="square" onclick="recolor(event)"></div>
+                    <div class="square" onclick="recolor(event)"></div>
+                    <div class="square" onclick="recolor(event)"></div>
+                    <div class="square" onclick="recolor(event)"></div>
+                </div>
+            </section>
+
+
+            <a name="data"></a>
+            <section class="data">
+                <h1 class="title">Data</h1>
+  
+            </section>
+
+        </main>
+
+        <footer></footer>
+
+    </div>
+
+    <script src="custom.js">
+    </script>
+
+</body>
+
+</html>
