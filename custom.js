@@ -83,7 +83,7 @@ function addRowNum() {
 }
 
 function resetRowNum() {
-  j === 0;
+  j = 0;
 }
 
 $("#resetButton").click(function () {
