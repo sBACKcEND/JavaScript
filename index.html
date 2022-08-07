@@ -43,7 +43,7 @@
         <main>
 
             <section class="task">
-                <h1 class="title">Task</h1>
+                <h1 class="title">Task</h1><br>
                 <ol>
                     <li>Paspaudus ant mygtuko, puslapyje esantis div atsiranda/pranyksta</li>
                     <li>Turit vieną div, su aukščiu,pločiu ir spalva bei 4 mygtukus, su kuriais galit valdyt sukurto div
@@ -60,7 +60,7 @@
 
             <a name="control_panel"></a>
             <section class="control_panel">
-                <h1 class="title">Control Panel</h1>
+                <h1 class="title">Control Panel</h1><br>
                 <div class="control_panel_div">
                     <div class="inputs">
                         <input type="submit" value="On/Off" onclick="openCloseDiv()"><br>
@@ -75,7 +75,7 @@
 
             <a name="colors"></a>
             <section class="colors">
-                <h1 class="title">Colors</h1>
+                <h1 class="title">Colors</h1><br>
                 <h3>Press on any square to change the color</h3>
                 <div class="colors_block">
                     <div onclick="recolor(), addColorName()"></div>
@@ -92,20 +92,16 @@
 
             <a name="data"></a>
             <section class="data">
-                <h1 class="title">Data</h1>
+                <h1 class="title">Data</h1><br>
 
-                <table class="insertDataTable">
-                    <tr>
-                        <th>First name</th>
-                        <th>Last name</th>
-                        <th>Year of birth</th>
-                    </tr>
-                    <tr>
-                        <td><input id="firstName" type="text" name="name" placeholder="enter first name"></td>
-                        <td><input id="lastName" type="text" name="lastname" placeholder="enter last name"></td>
-                        <td><input id="countAge" type="number" name="age" placeholder="yyyy"></td>
-                    </tr>
-                </table>
+                <h3>Enter your details</h3>
+                <div class="insertDataTable">
+                    <label>First Name:</label><input id="firstName" type="text" name="name"
+                        placeholder="enter first name"><br>
+                    <label>Last Name:</label><input id="lastName" type="text" name="lastname"
+                        placeholder="enter last name"><br>
+                    <label>Year of Birth:</label><input id="countAge" type="number" name="age" placeholder="yyyy">
+                </div>
 
                 <div class="buttons">
                     <button id="addDataTable" onclick="addTable()">Submit</button>

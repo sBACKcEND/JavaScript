@@ -18,6 +18,8 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   height: 35px;
   align-items: center;
   position: relative;
@@ -184,11 +186,11 @@ section .title {
 }
 
 .control_div1 {
-  height: 200px;
+  height: 150px;
 }
 
 .control_div2 {
-  width: 200px;
+  width: 150px;
 }
 
 .control_div3 {
@@ -216,14 +218,18 @@ section .title {
   font-size: 14px;
 }
 
-.colors h3 {
+h3 {
   margin-left: 15px;
 }
 
 /*$$$$$$$$$$$$$$$$$$$$ Data Section $$$$$$$$$$$$$$$$$$$$*/
 .insertDataTable {
-  margin: 0 auto;
-  margin-bottom: 40px;
+  margin: 20px 0 50px 50px;
+}
+
+label {
+  border: 1px solid #ffffff;
+  padding: 2px;
 }
 
 .submnitedDataTable {
@@ -244,7 +250,7 @@ td {
   display: flex;
   flex-direction: row;
   width: 100px;
-  margin: 0 auto;
+  margin-left: 50px;
   column-gap: 15px;
 }
 
@@ -252,7 +258,7 @@ td {
   background-color: cornflowerblue;
 }
 
-/*$$$$$$$$$$$$$$$$$$$$ for mobile screen $$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$ for smaller screens $$$$$$$$$$$$$$$$$$$$*/
 @media screen and (max-width: 1200px) {
   #menuH {
     align-items: center;
@@ -277,10 +283,8 @@ td {
     margin-top: 150px;
   }
 
-  th,
-  td {
-    display: flex;
-    flex-direction: row;
+  .submnitedDataTable {
+    width: 250px;
   }
 
   .buttons {
