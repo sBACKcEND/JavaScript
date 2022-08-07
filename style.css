@@ -247,3 +247,42 @@ td {
   margin: 0 auto;
   column-gap: 15px;
 }
+
+/*$$$$$$$$$$$$$$$$$$$$ for mobile screen $$$$$$$$$$$$$$$$$$$$*/
+@media screen and (max-width: 1200px) {
+  #menuH {
+    align-items: center;
+  }
+
+  #menuH-barH {
+    width: 20px;
+  }
+
+  .navH ul {
+    margin-left: 10px;
+  }
+
+  .navH li a {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .control_div4 {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+
+  th,
+  td {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 0 auto;
+  }
+}
