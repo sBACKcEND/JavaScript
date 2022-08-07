@@ -248,6 +248,10 @@ td {
   column-gap: 15px;
 }
 
+.thRow {
+  background-color: cornflowerblue;
+}
+
 /*$$$$$$$$$$$$$$$$$$$$ for mobile screen $$$$$$$$$$$$$$$$$$$$*/
 @media screen and (max-width: 1200px) {
   #menuH {
