@@ -1,11 +1,11 @@
-// Hamburger Menu  $$$$$$$$$$$$$$$$$$$$
+// Hamburger Menu  ===============
 function menuOnClick() {
   document.getElementById("menuH-barH").classList.toggle("changeH");
   document.getElementById("navH").classList.toggle("changeH");
   document.getElementById("menuH-bgH").classList.toggle("changeH-bgH");
 }
 
-// Control Panel section  $$$$$$$$$$$$$$$$$$$$
+// Control Panel section  =============== 
 let conDiv = document.querySelector(".control_div");
 function openCloseDiv() {
   if (conDiv.style.display === "block") {
@@ -31,7 +31,7 @@ function changePosition() {
   conDiv.classList.toggle("control_div4");
 }
 
-// Color section  $$$$$$$$$$$$$$$$$$$$
+// Color section ===============
 function rand() {
   return Math.floor(Math.random() * 256);
 }
@@ -54,7 +54,7 @@ function addColorName() {
     }
   }
 
-// Data section  $$$$$$$$$$$$$$$$$$$$
+// Data section  ===============
 function addTable() {
   let tbody = document.getElementById("tbody");
   let tbodyRow = tbody.insertRow();
