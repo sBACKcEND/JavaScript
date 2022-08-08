@@ -25,7 +25,7 @@ header {
   position: relative;
 }
 
-/*$$$$$$$$$$$$$$$$$$$$ Hamburger Menu $$$$$$$$$$$$$$$$$$$$*/
+/*=============== Hamburger Menu ===============*/
 #menuH {
   z-index: 2;
   display: flex;
@@ -128,7 +128,7 @@ header {
   transform: translate(-60%, -30%);
 }
 
-/*$$$$$$$$$$$$$$$$$$$$ All 4 Sections $$$$$$$$$$$$$$$$$$$$*/
+/*=============== All 4 Sections ===============*/
 section {
   max-width: 1100px;
   background-color: #170068;
@@ -163,7 +163,7 @@ section .title {
   }
 }
 
-/*$$$$$$$$$$$$$$$$$$$$ Control Panel Section $$$$$$$$$$$$$$$$$$$$*/
+/*=============== Control Panel Section ===============*/
 .control_panel_div {
   display: flex;
   flex-direction: row;
@@ -202,7 +202,7 @@ section .title {
   margin-left: 800px;
 }
 
-/*$$$$$$$$$$$$$$$$$$$$ Colors Section $$$$$$$$$$$$$$$$$$$$*/
+/*=============== Colors Section ===============*/
 .colors_block {
   position: relative;
   margin-left: 40px;
@@ -224,7 +224,7 @@ h3 {
   margin-left: 15px;
 }
 
-/*$$$$$$$$$$$$$$$$$$$$ Data Section $$$$$$$$$$$$$$$$$$$$*/
+/*=============== Data Section ===============*/
 .insertDataForm {
   margin: 20px 0 50px 50px;
 }
@@ -264,7 +264,7 @@ td {
   border-radius: 3px;
 }
 
-/*$$$$$$$$$$$$$$$$$$$$ for smaller screens $$$$$$$$$$$$$$$$$$$$*/
+/*=============== for smaller screens ===============*/
 @media screen and (max-width: 1200px) {
   #menuH {
     align-items: center;
