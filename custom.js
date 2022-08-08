@@ -86,6 +86,12 @@ function resetRowNum() {
   j = 0;
 }
 
-$("#resetButton").click(function () {
+$("#emptyForm").click(function() {
+  $("#firstName").val("");
+  $("#lastName").val("");
+  $("#countAge").val("");
+});
+
+$("#resetButton").click(function() {
   $("#tbody").empty();
 });
