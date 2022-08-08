@@ -48,11 +48,11 @@ function recolor() {
   }
 }
 
-// function addColorName() {
-//     for (i = 0; i < squares.length; i++) {
-//       squares[i].innerHTML = randomColor();
-//     }
-//   }
+function addColorName() {
+    for (i = 0; i < squares.length; i++) {
+      squares[i].innerHTML = randomColor();
+    }
+  }
 
 // Data section  $$$$$$$$$$$$$$$$$$$$
 function addTable() {
